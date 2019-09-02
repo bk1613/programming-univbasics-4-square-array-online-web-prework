@@ -4,7 +4,7 @@ def square_array(array)
   array.each do |num| 
     new_array.push(num * num)
   end
-  puts new_array
+  return new_array
 end
 
 numbers = [1,2,3]
